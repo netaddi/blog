@@ -6,7 +6,7 @@
 title: 网瘾少年的治疗中心
 subtitle: 这里是网瘾的博客，很高兴见到你。
 description: program code
-author: netaddi
+author: 网瘾少年
 language:
 timezone: Asia/Shanghai
 
@@ -69,3 +69,22 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
